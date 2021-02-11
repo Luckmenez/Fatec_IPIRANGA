@@ -1,5 +1,9 @@
+import java.swing.JOptionPane;
+
 public class EntregaGit {
   public void maind(String[] args){
-    System.out.printin("Entrega Git")
+    String nome = JOptionPane.showInputLog("Seu nome?");
+    JOptionPane.showMessageDialog(null, "Bem vindo" + nome);
+    System.out.printin("improved git");
   }
 }
